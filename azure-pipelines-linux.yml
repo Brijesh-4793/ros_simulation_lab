@@ -17,7 +17,7 @@ jobs:
   - checkout: self
     submodules: recursive
   - script: |
-      pushd catkin_ws
+      pushd catkin_ws04
       source /opt/ros/melodic/setup.sh
       sudo apt update
       rosdep update
