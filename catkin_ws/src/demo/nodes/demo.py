@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import rospy1
+import rospy
 import rostest
 import unittest
 import sys
