@@ -28,7 +28,7 @@ jobs:
       set ROS_HOME=%CD%\ros_home
       pushd catkin_ws
       call "c:\opt\ros\melodic\x64\setup.bat"
-      call ".\devel\setup.bat"
+      call ".\devel\setup.bash"
       rosnode kill -a
       rostest demo demo.test
     displayName: Run ROS Tests
