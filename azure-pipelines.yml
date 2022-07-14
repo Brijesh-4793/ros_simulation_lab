@@ -31,6 +31,7 @@ jobs:
       call ".\devel\setup.bash"
       rosnode kill -a
       rostest demo demo.test
+      npm test
     displayName: Run ROS Tests
   - task: PublishPipelineArtifact@1
     inputs:
